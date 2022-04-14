@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyen doi nhiet do</title>
+</head>
+<body>
+<h2>Chuyen doi do F sang C</h2>
+<p><input id="nhietDo"> Nhap do F</p>
+<p><button onclick="convert()">CONVERT</button></p>
+<p id="kq">độ C: </p>
+<script>
+    function convert (value) {
+        a = document.getElementById('nhietDo').value
+        document.getElementById('kq').innerHTML = (a-32)/1.8;
+
+    }
+</script>
+</body>
+</html>
